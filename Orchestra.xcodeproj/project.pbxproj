@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9414ED2B59AA0B0003E01E /* OrchestraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9414EC2B59AA0B0003E01E /* OrchestraApp.swift */; };
+		6F9414EF2B59AA0B0003E01E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9414EE2B59AA0B0003E01E /* ContentView.swift */; };
+		6F9414F12B59AA0C0003E01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9414F02B59AA0C0003E01E /* Assets.xcassets */; };
+		6F9414F52B59AA0C0003E01E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9414F42B59AA0C0003E01E /* Preview Assets.xcassets */; };
+		6F9414FF2B59AA0C0003E01E /* OrchestraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9414FE2B59AA0C0003E01E /* OrchestraTests.swift */; };
+		6F9415092B59AA0C0003E01E /* OrchestraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9415082B59AA0C0003E01E /* OrchestraUITests.swift */; };
+		6F94150B2B59AA0C0003E01E /* OrchestraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F94150A2B59AA0C0003E01E /* OrchestraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F9414FB2B59AA0C0003E01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9414E12B59AA0B0003E01E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9414E82B59AA0B0003E01E;
+			remoteInfo = Orchestra;
+		};
+		6F9415052B59AA0C0003E01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F9414E12B59AA0B0003E01E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9414E82B59AA0B0003E01E;
+			remoteInfo = Orchestra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F9414E92B59AA0B0003E01E /* Orchestra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orchestra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9414EC2B59AA0B0003E01E /* OrchestraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchestraApp.swift; sourceTree = "<group>"; };
+		6F9414EE2B59AA0B0003E01E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F9414F02B59AA0C0003E01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F9414F22B59AA0C0003E01E /* Orchestra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orchestra.entitlements; sourceTree = "<group>"; };
+		6F9414F42B59AA0C0003E01E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F9414FA2B59AA0C0003E01E /* OrchestraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrchestraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9414FE2B59AA0C0003E01E /* OrchestraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchestraTests.swift; sourceTree = "<group>"; };
+		6F9415042B59AA0C0003E01E /* OrchestraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrchestraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9415082B59AA0C0003E01E /* OrchestraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchestraUITests.swift; sourceTree = "<group>"; };
+		6F94150A2B59AA0C0003E01E /* OrchestraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchestraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9414E62B59AA0B0003E01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9414F72B59AA0C0003E01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9415012B59AA0C0003E01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9414E02B59AA0B0003E01E = {
+			isa = PBXGroup;
+			children = (
+				6F9414EB2B59AA0B0003E01E /* Orchestra */,
+				6F9414FD2B59AA0C0003E01E /* OrchestraTests */,
+				6F9415072B59AA0C0003E01E /* OrchestraUITests */,
+				6F9414EA2B59AA0B0003E01E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9414EA2B59AA0B0003E01E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9414E92B59AA0B0003E01E /* Orchestra.app */,
+				6F9414FA2B59AA0C0003E01E /* OrchestraTests.xctest */,
+				6F9415042B59AA0C0003E01E /* OrchestraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9414EB2B59AA0B0003E01E /* Orchestra */ = {
+			isa = PBXGroup;
+			children = (
+				6F9414EC2B59AA0B0003E01E /* OrchestraApp.swift */,
+				6F9414EE2B59AA0B0003E01E /* ContentView.swift */,
+				6F9414F02B59AA0C0003E01E /* Assets.xcassets */,
+				6F9414F22B59AA0C0003E01E /* Orchestra.entitlements */,
+				6F9414F32B59AA0C0003E01E /* Preview Content */,
+			);
+			path = Orchestra;
+			sourceTree = "<group>";
+		};
+		6F9414F32B59AA0C0003E01E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F9414F42B59AA0C0003E01E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F9414FD2B59AA0C0003E01E /* OrchestraTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F9414FE2B59AA0C0003E01E /* OrchestraTests.swift */,
+			);
+			path = OrchestraTests;
+			sourceTree = "<group>";
+		};
+		6F9415072B59AA0C0003E01E /* OrchestraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F9415082B59AA0C0003E01E /* OrchestraUITests.swift */,
+				6F94150A2B59AA0C0003E01E /* OrchestraUITestsLaunchTests.swift */,
+			);
+			path = OrchestraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9414E82B59AA0B0003E01E /* Orchestra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F94150E2B59AA0C0003E01E /* Build configuration list for PBXNativeTarget "Orchestra" */;
+			buildPhases = (
+				6F9414E52B59AA0B0003E01E /* Sources */,
+				6F9414E62B59AA0B0003E01E /* Frameworks */,
+				6F9414E72B59AA0B0003E01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orchestra;
+			productName = Orchestra;
+			productReference = 6F9414E92B59AA0B0003E01E /* Orchestra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F9414F92B59AA0C0003E01E /* OrchestraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9415112B59AA0C0003E01E /* Build configuration list for PBXNativeTarget "OrchestraTests" */;
+			buildPhases = (
+				6F9414F62B59AA0C0003E01E /* Sources */,
+				6F9414F72B59AA0C0003E01E /* Frameworks */,
+				6F9414F82B59AA0C0003E01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F9414FC2B59AA0C0003E01E /* PBXTargetDependency */,
+			);
+			name = OrchestraTests;
+			productName = OrchestraTests;
+			productReference = 6F9414FA2B59AA0C0003E01E /* OrchestraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F9415032B59AA0C0003E01E /* OrchestraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9415142B59AA0C0003E01E /* Build configuration list for PBXNativeTarget "OrchestraUITests" */;
+			buildPhases = (
+				6F9415002B59AA0C0003E01E /* Sources */,
+				6F9415012B59AA0C0003E01E /* Frameworks */,
+				6F9415022B59AA0C0003E01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F9415062B59AA0C0003E01E /* PBXTargetDependency */,
+			);
+			name = OrchestraUITests;
+			productName = OrchestraUITests;
+			productReference = 6F9415042B59AA0C0003E01E /* OrchestraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9414E12B59AA0B0003E01E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6F9414E82B59AA0B0003E01E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6F9414F92B59AA0C0003E01E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6F9414E82B59AA0B0003E01E;
+					};
+					6F9415032B59AA0C0003E01E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6F9414E82B59AA0B0003E01E;
+					};
+				};
+			};
+			buildConfigurationList = 6F9414E42B59AA0B0003E01E /* Build configuration list for PBXProject "Orchestra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F9414E02B59AA0B0003E01E;
+			productRefGroup = 6F9414EA2B59AA0B0003E01E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9414E82B59AA0B0003E01E /* Orchestra */,
+				6F9414F92B59AA0C0003E01E /* OrchestraTests */,
+				6F9415032B59AA0C0003E01E /* OrchestraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9414E72B59AA0B0003E01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9414F52B59AA0C0003E01E /* Preview Assets.xcassets in Resources */,
+				6F9414F12B59AA0C0003E01E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9414F82B59AA0C0003E01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9415022B59AA0C0003E01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9414E52B59AA0B0003E01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9414EF2B59AA0B0003E01E /* ContentView.swift in Sources */,
+				6F9414ED2B59AA0B0003E01E /* OrchestraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9414F62B59AA0C0003E01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9414FF2B59AA0C0003E01E /* OrchestraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9415002B59AA0C0003E01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F94150B2B59AA0C0003E01E /* OrchestraUITestsLaunchTests.swift in Sources */,
+				6F9415092B59AA0C0003E01E /* OrchestraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F9414FC2B59AA0C0003E01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9414E82B59AA0B0003E01E /* Orchestra */;
+			targetProxy = 6F9414FB2B59AA0C0003E01E /* PBXContainerItemProxy */;
+		};
+		6F9415062B59AA0C0003E01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F9414E82B59AA0B0003E01E /* Orchestra */;
+			targetProxy = 6F9415052B59AA0C0003E01E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F94150C2B59AA0C0003E01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F94150D2B59AA0C0003E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6F94150F2B59AA0C0003E01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Orchestra/Orchestra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Orchestra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.dziurdzia.Orchestra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F9415102B59AA0C0003E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Orchestra/Orchestra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Orchestra/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.dziurdzia.Orchestra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F9415122B59AA0C0003E01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.dziurdzia.OrchestraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orchestra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orchestra";
+			};
+			name = Debug;
+		};
+		6F9415132B59AA0C0003E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.dziurdzia.OrchestraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orchestra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Orchestra";
+			};
+			name = Release;
+		};
+		6F9415152B59AA0C0003E01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.dziurdzia.OrchestraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orchestra;
+			};
+			name = Debug;
+		};
+		6F9415162B59AA0C0003E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.dziurdzia.OrchestraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orchestra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9414E42B59AA0B0003E01E /* Build configuration list for PBXProject "Orchestra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F94150C2B59AA0C0003E01E /* Debug */,
+				6F94150D2B59AA0C0003E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F94150E2B59AA0C0003E01E /* Build configuration list for PBXNativeTarget "Orchestra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F94150F2B59AA0C0003E01E /* Debug */,
+				6F9415102B59AA0C0003E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9415112B59AA0C0003E01E /* Build configuration list for PBXNativeTarget "OrchestraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9415122B59AA0C0003E01E /* Debug */,
+				6F9415132B59AA0C0003E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9415142B59AA0C0003E01E /* Build configuration list for PBXNativeTarget "OrchestraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9415152B59AA0C0003E01E /* Debug */,
+				6F9415162B59AA0C0003E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F9414E12B59AA0B0003E01E /* Project object */;
+}
