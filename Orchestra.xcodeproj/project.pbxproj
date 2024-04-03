@@ -3,17 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F00F54E2BBD86B00037804F /* SwiftMPDClient in Frameworks */ = {isa = PBXBuildFile; productRef = 6F00F54D2BBD86B00037804F /* SwiftMPDClient */; };
+		6F0620262B6002FA00E2A133 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0620252B6002FA00E2A133 /* LibraryView.swift */; };
+		6F0620282B6003E800E2A133 /* ToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0620272B6003E800E2A133 /* ToolbarView.swift */; };
+		6F06202A2B604B3F00E2A133 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0620292B604B3F00E2A133 /* SidebarView.swift */; };
+		6F77C6CF2B84B80F00172E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F77C6CE2B84B80F00172E5F /* Assets.xcassets */; };
 		6F9414ED2B59AA0B0003E01E /* OrchestraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9414EC2B59AA0B0003E01E /* OrchestraApp.swift */; };
-		6F9414EF2B59AA0B0003E01E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9414EE2B59AA0B0003E01E /* ContentView.swift */; };
-		6F9414F12B59AA0C0003E01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9414F02B59AA0C0003E01E /* Assets.xcassets */; };
+		6F9414EF2B59AA0B0003E01E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9414EE2B59AA0B0003E01E /* MainView.swift */; };
 		6F9414F52B59AA0C0003E01E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9414F42B59AA0C0003E01E /* Preview Assets.xcassets */; };
 		6F9414FF2B59AA0C0003E01E /* OrchestraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9414FE2B59AA0C0003E01E /* OrchestraTests.swift */; };
 		6F9415092B59AA0C0003E01E /* OrchestraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9415082B59AA0C0003E01E /* OrchestraUITests.swift */; };
 		6F94150B2B59AA0C0003E01E /* OrchestraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F94150A2B59AA0C0003E01E /* OrchestraUITestsLaunchTests.swift */; };
+		6FC28FCB2B8E6F39008CB025 /* SwiftMPDClient in Frameworks */ = {isa = PBXBuildFile; productRef = 6FC28FCA2B8E6F39008CB025 /* SwiftMPDClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F0620252B6002FA00E2A133 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		6F0620272B6003E800E2A133 /* ToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarView.swift; sourceTree = "<group>"; };
+		6F0620292B604B3F00E2A133 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		6F612A3C2B87461B00AF7DD7 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F77C6CE2B84B80F00172E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F9414E92B59AA0B0003E01E /* Orchestra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orchestra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9414EC2B59AA0B0003E01E /* OrchestraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchestraApp.swift; sourceTree = "<group>"; };
-		6F9414EE2B59AA0B0003E01E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6F9414F02B59AA0C0003E01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F9414EE2B59AA0B0003E01E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		6F9414F22B59AA0C0003E01E /* Orchestra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Orchestra.entitlements; sourceTree = "<group>"; };
 		6F9414F42B59AA0C0003E01E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F9414FA2B59AA0C0003E01E /* OrchestraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrchestraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,13 +54,23 @@
 		6F9415042B59AA0C0003E01E /* OrchestraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrchestraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9415082B59AA0C0003E01E /* OrchestraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchestraUITests.swift; sourceTree = "<group>"; };
 		6F94150A2B59AA0C0003E01E /* OrchestraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrchestraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FC28FC82B8E6F23008CB025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6F612A392B87461B00AF7DD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F9414E62B59AA0B0003E01E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC28FCB2B8E6F39008CB025 /* SwiftMPDClient in Frameworks */,
+				6F00F54E2BBD86B00037804F /* SwiftMPDClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 				6F9414FD2B59AA0C0003E01E /* OrchestraTests */,
 				6F9415072B59AA0C0003E01E /* OrchestraUITests */,
 				6F9414EA2B59AA0B0003E01E /* Products */,
+				6FC28FC92B8E6F39008CB025 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +108,7 @@
 				6F9414E92B59AA0B0003E01E /* Orchestra.app */,
 				6F9414FA2B59AA0C0003E01E /* OrchestraTests.xctest */,
 				6F9415042B59AA0C0003E01E /* OrchestraUITests.xctest */,
+				6F612A3C2B87461B00AF7DD7 /* Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,11 +116,15 @@
 		6F9414EB2B59AA0B0003E01E /* Orchestra */ = {
 			isa = PBXGroup;
 			children = (
+				6FC28FC82B8E6F23008CB025 /* Info.plist */,
 				6F9414EC2B59AA0B0003E01E /* OrchestraApp.swift */,
-				6F9414EE2B59AA0B0003E01E /* ContentView.swift */,
-				6F9414F02B59AA0C0003E01E /* Assets.xcassets */,
+				6F77C6CE2B84B80F00172E5F /* Assets.xcassets */,
+				6F9414EE2B59AA0B0003E01E /* MainView.swift */,
 				6F9414F22B59AA0C0003E01E /* Orchestra.entitlements */,
 				6F9414F32B59AA0C0003E01E /* Preview Content */,
+				6F0620252B6002FA00E2A133 /* LibraryView.swift */,
+				6F0620272B6003E800E2A133 /* ToolbarView.swift */,
+				6F0620292B604B3F00E2A133 /* SidebarView.swift */,
 			);
 			path = Orchestra;
 			sourceTree = "<group>";
@@ -129,9 +154,33 @@
 			path = OrchestraUITests;
 			sourceTree = "<group>";
 		};
+		6FC28FC92B8E6F39008CB025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6F612A3B2B87461B00AF7DD7 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F612A5E2B87461D00AF7DD7 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				6F612A382B87461B00AF7DD7 /* Sources */,
+				6F612A392B87461B00AF7DD7 /* Frameworks */,
+				6F612A3A2B87461B00AF7DD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = 6F612A3C2B87461B00AF7DD7 /* Test.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6F9414E82B59AA0B0003E01E /* Orchestra */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F94150E2B59AA0C0003E01E /* Build configuration list for PBXNativeTarget "Orchestra" */;
@@ -145,6 +194,10 @@
 			dependencies = (
 			);
 			name = Orchestra;
+			packageProductDependencies = (
+				6FC28FCA2B8E6F39008CB025 /* SwiftMPDClient */,
+				6F00F54D2BBD86B00037804F /* SwiftMPDClient */,
+			);
 			productName = Orchestra;
 			productReference = 6F9414E92B59AA0B0003E01E /* Orchestra.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +248,9 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					6F612A3B2B87461B00AF7DD7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					6F9414E82B59AA0B0003E01E = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -217,6 +273,9 @@
 				Base,
 			);
 			mainGroup = 6F9414E02B59AA0B0003E01E;
+			packageReferences = (
+				6F00F54C2BBD86B00037804F /* XCLocalSwiftPackageReference "../SwiftMPDClient" */,
+			);
 			productRefGroup = 6F9414EA2B59AA0B0003E01E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,17 +283,25 @@
 				6F9414E82B59AA0B0003E01E /* Orchestra */,
 				6F9414F92B59AA0C0003E01E /* OrchestraTests */,
 				6F9415032B59AA0C0003E01E /* OrchestraUITests */,
+				6F612A3B2B87461B00AF7DD7 /* Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6F612A3A2B87461B00AF7DD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F9414E72B59AA0B0003E01E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F77C6CF2B84B80F00172E5F /* Assets.xcassets in Resources */,
 				6F9414F52B59AA0C0003E01E /* Preview Assets.xcassets in Resources */,
-				6F9414F12B59AA0C0003E01E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +322,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6F612A382B87461B00AF7DD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6F9414E52B59AA0B0003E01E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F9414EF2B59AA0B0003E01E /* ContentView.swift in Sources */,
+				6F06202A2B604B3F00E2A133 /* SidebarView.swift in Sources */,
+				6F9414EF2B59AA0B0003E01E /* MainView.swift in Sources */,
 				6F9414ED2B59AA0B0003E01E /* OrchestraApp.swift in Sources */,
+				6F0620262B6002FA00E2A133 /* LibraryView.swift in Sources */,
+				6F0620282B6003E800E2A133 /* ToolbarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +374,60 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		6F612A5F2B87461D00AF7DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Test/Test.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.dziurdzia.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6F612A602B87461D00AF7DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Test/Test.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pl.dziurdzia.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		6F94150C2B59AA0C0003E01E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -420,8 +551,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orchestra/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8GASE26MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Orchestra/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -456,8 +589,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Orchestra/Preview Content\"";
+				DEVELOPMENT_TEAM = Q8GASE26MA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Orchestra/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -572,6 +707,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6F612A5E2B87461D00AF7DD7 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F612A5F2B87461D00AF7DD7 /* Debug */,
+				6F612A602B87461D00AF7DD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6F9414E42B59AA0B0003E01E /* Build configuration list for PBXProject "Orchestra" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -609,6 +753,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		6F00F54C2BBD86B00037804F /* XCLocalSwiftPackageReference "../SwiftMPDClient" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SwiftMPDClient;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6F00F54D2BBD86B00037804F /* SwiftMPDClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMPDClient;
+		};
+		6FC28FCA2B8E6F39008CB025 /* SwiftMPDClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftMPDClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6F9414E12B59AA0B0003E01E /* Project object */;
 }
