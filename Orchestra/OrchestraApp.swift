@@ -8,12 +8,13 @@
 import SwiftMPDClient
 import SwiftUI
 
+@MainActor
 enum CompositionRoot {
     static let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    static var client = MPDClient(connection: MPDConnection(host: "127.0.0.1", port: 6600))
-    static var playStatus = MPDPlayStatus(client: CompositionRoot.client)
-    static var libraryManager = MPDLibraryManager(client: CompositionRoot.client)
-    static var albumArtFetcher = MPDBinaryFetcher(connection: MPDConnection(host: "127.0.0.1", port: 6600))
+    static let client = MPDClient(connection: MPDConnection(host: "10.10.1.6", port: 6600))
+    static let playStatus = MPDPlayStatus(client: CompositionRoot.client)
+    static let libraryManager = MPDLibraryManager(client: CompositionRoot.client)
+    static let albumArtFetcher = MPDBinaryFetcher(connection: MPDConnection(host: "127.0.0.1", port: 6600))
 
     static func mainView() -> some View {
         MainView(
@@ -22,7 +23,7 @@ enum CompositionRoot {
             libraryManger: CompositionRoot.libraryManager,
             fetcher: CompositionRoot.albumArtFetcher
         ).onReceive(timer, perform: { _ in
-            Task {
+                Task {
                 try? await client.refresh()
             }
 
